@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.card-bg-container-home {
+    background-color: #ffffff;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+}
+
+.main-heading-home {
+    color: #f19116;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-weight: bold;
+}
+
+.Description-home {
+    color: #7b8794;
+    font-family: "Bree Serif";
+    font-size: 18px;
+    text-align: center;
+}
+
+.bg-container-home {
+    background-image: url("https://images.unsplash.com/photo-1490077476659-095159692ab5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60");
+    height: 100vh;
+    background-size: cover;
+}
+
+.button-home {
+    background-color: orange;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(133, 2, 255);
+}
+
+.favourite-photos-bg-container {
+    background-image: url("https://res.cloudinary.com/dslanvkkk/image/upload/v1622655956/photo-1544807459-eb0ae8cda3e0_zcedor.jpg");
+    background-size: cover;
+    height: 100%;
+    padding: 15px;
+}
+
+.favourite-photos-heading {
+    color: #e28a07;
+    padding: 18px;
+    margin: 5px;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    background-image: url("https://images.pexels.com/photos/1294668/pexels-photo-1294668.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")
+}
+
+.favourite-photos-card-container {
+    background-color: rgb(255, 255, 255);
+    font-family: "Bree Serif";
+    padding: 1px;
+    margin: 12px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.card-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: rgb(115, 11, 184);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.image {
+    margin: 2px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.bg-container-detailed {
+    background-color: #7b8794;
+    height: 105vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+.detailed-image {
+    height: 60vh;
+    background-size: cover;
+}
+
+.detailed-description {
+    color: #f8fbff;
+    font-family: "Bree Serif";
+    font-size: 14px;
+    text-align: center;
+}
+
+.button-detailed {
+    margin: 10px;
+}
